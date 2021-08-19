@@ -3,6 +3,9 @@
     <dimen name="card_corner_radius">10dp</dimen>
     <dimen name="card_elevation">10dp</dimen>
     <dimen name="task_title_size">20sp</dimen>
-    <dimen name="task_item_magrin">16dp</dimen>
+    <dimen name="task_item_margin">16dp</dimen>
     <dimen name="task_text_description_size">16sp</dimen>
+    <dimen name="welcome_text_size">18sp</dimen>
+    <dimen name="margin_top_16dp">16dp</dimen>
+    <dimen name="margin_top_32dp">32dp</dimen>
 </resources>

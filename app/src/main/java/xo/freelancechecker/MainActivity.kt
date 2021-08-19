@@ -10,8 +10,10 @@ import xo.freelancechecker.utils.APP_ACTIVITY
 
 class MainActivity : AppCompatActivity() {
 
+    // create objects: Toolbar, NavController, Binding
     lateinit var mToolbar: Toolbar
     lateinit var mNavController: NavController
+    // connect bundles
     private var _bindind: ActivityMainBinding? = null
     private val mBinding get() = _bindind!!
 
@@ -19,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         _bindind = ActivityMainBinding.inflate(layoutInflater)
         setContentView(mBinding.root)
-        APP_ACTIVITY = this
+        APP_ACTIVITY = this //to get context anywhere in the application
         mToolbar = mBinding.toolbar
         mNavController = Navigation.findNavController(this, R.id.nav_host_fragment)
         setSupportActionBar(mToolbar)

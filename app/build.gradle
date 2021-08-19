@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        viewBinding.enabled=true
+        viewBinding.enabled=true //connect bundles in the project
         applicationId "xo.freelancechecker"
         minSdk 22
         targetSdk 31
