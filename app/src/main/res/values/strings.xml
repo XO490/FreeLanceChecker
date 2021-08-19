@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">FreeLanceChecker</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="task_title">Task title</string>
-    <string name="task_description">Task description</string>
+    <string name="hello_blank_fragment">пустой фрагмент</string>
+    <string name="task_title">Заголовок задачи</string>
+    <string name="task_description">Краткое описание задачи</string>
     <string name="toolbar_title">Заказы для фрилансера</string>
     <string name="welcome_text">Добра тебе свободный человек.\nПеречисли ключевые слова через пробел\nи выбирай задание по-душе.</string>
+    <string name="text_btn_search">показать</string>
+    <string name="task_date">~ 4 часа назад</string>
+    <string name="task_price">договорная</string>
+    <string name="task_tags">kotlin ktor jetpack compose</string>
 </resources>

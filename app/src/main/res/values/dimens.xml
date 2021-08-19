@@ -6,6 +6,8 @@
     <dimen name="task_item_margin">16dp</dimen>
     <dimen name="task_text_description_size">16sp</dimen>
     <dimen name="welcome_text_size">18sp</dimen>
-    <dimen name="margin_top_16dp">16dp</dimen>
-    <dimen name="margin_top_32dp">32dp</dimen>
+    <dimen name="task_price">12sp</dimen>
+    <dimen name="margin_4dp">4dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="margin_32dp">32dp</dimen>
 </resources>
